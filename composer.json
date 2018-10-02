@@ -1,23 +1,25 @@
 {
-    "name": "momokang/laravel-clean-file-cache",
-    "description": "Clean up expired laravel cache files if system is using file as cache driver",
-    "keywords": [
-        "LaravelCleanFileCache"
-    ],
-    "type": "composer-plugin",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "momokang",
-            "email": "kang1233@hotmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.6.4"
-    },
-    "autoload": {
-        "psr-4": {
-            "momokang\\CleanFileCache\\": "src"
-        }
+  "name": "momokang/laravel-clean-file-cache",
+  "description": "Clean up expired laravel cache files if system is using file as cache driver",
+  "keywords": [
+    "LaravelCleanFileCache"
+  ],
+  "type": "composer-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "momokang",
+      "email": "kang1233@hotmail.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6.4",
+    "momokang/laravel-clean-file-cache": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "momokang\\CleanFileCache\\": "src"
+    }
+  }
 }
