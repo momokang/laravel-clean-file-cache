@@ -55,6 +55,11 @@ class CleanFileCache extends Command
                 continue;
             }
 
+            // Check file exists
+            if (!Storage::disk('cachefile')->exists($cachefile)) {
+                continue;
+            }
+
             // Get last modified from the file
             $time = Storage::disk('cachefile')->lastModified($cachefile);
 
