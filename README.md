@@ -44,7 +44,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Security
 
-If you discover any security related issues, please email kang1233@hotmail.com or raise an issue.
+If you discover any security related issues, please raise an issue.
 
 ## Credits
 
